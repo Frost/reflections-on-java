@@ -6,4 +6,5 @@ public interface Commands {
   public void jump();
   public void dig();
   public void win(String amount);
+  public void exit();
 }

@@ -23,4 +23,8 @@ public class MyCommands implements Commands {
   public void nope() {
     System.out.println("I should not be printed");
   }
+
+  public void exit() {
+    System.exit(0);
+  }
 }
